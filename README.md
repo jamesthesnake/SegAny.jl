@@ -1,0 +1,2 @@
+# SegAny.jl
+segmentanything
