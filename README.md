@@ -1,2 +1,2 @@
 # SegAny.jl
-segmentanything
+segment anything
