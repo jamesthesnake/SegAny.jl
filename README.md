@@ -1,2 +1,2 @@
 # SegAny.jl
-segment anything for julia
+FOR JULIA SEG ANY
