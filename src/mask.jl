@@ -16,6 +16,7 @@ struct MaskPredictor
     predictor::Any#PythonCall.Py
 end
 function MaskPredictor(; model_path=DEFAULT_MODEL, device="cuda")
+    #build sam
     model = sam.build_sam(model_path)
     model.to(device=device)
     predictor = sam.SamPredictor(model)
