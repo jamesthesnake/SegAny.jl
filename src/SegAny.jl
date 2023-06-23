@@ -11,7 +11,7 @@ const sam = PythonCall.pynew()
 const np = PythonCall.pynew()
 
 export MaskPredictor, MaskGenerator, ImageMask
-
+#call this
 function __init__()
     PythonCall.pycopy!(cv, pyimport("cv2"))
     PythonCall.pycopy!(sam, pyimport("segment_anything"))
